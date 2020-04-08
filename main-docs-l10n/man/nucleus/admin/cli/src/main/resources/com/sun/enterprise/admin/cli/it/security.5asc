@@ -8,7 +8,7 @@ DESCRIZIONE
        impedire accessi non autorizzati o danni ai dati nelle fasi di
        memorizzazione e trasferimento. In GlassFish Server è disponibile
        un'architettura di sicurezza dinamica ed estensibile basata sullo
-       standard Java EE. Le funzioni di sicurezza built-in includono
+       standard Jakarta EE. Le funzioni di sicurezza built-in includono
        crittografia, autenticazione e autorizzazione, nonché un'infrastruttura
        a chiave pubblica. GlassFish Server è basato sul modello di sicurezza
        Java, che si avvale di un sandbox in cui le applicazioni possono essere

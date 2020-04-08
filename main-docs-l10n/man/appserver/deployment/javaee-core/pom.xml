@@ -24,5 +24,5 @@
     </parent>    
     <artifactId>deployment-javaee-core-manpage-l10n</artifactId>
     <packaging>distribution-fragment</packaging>
-    <name>Man Pages for Java EE Core Deployment Subcommands of the asadmin Utility L10n</name>
+    <name>Man Pages for Jakarta EE Core Deployment Subcommands of the asadmin Utility L10n</name>
 </project>

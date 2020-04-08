@@ -5,7 +5,7 @@ security(5ASC)             GlassFish Server Concepts            security(5ASC)
 
 描述
        安全性實質上就是資料保護：如何在儲存或傳輸資料時防止對資料進行未授權的存取或損毀。GlassFish
-       Server 具有基於 Java EE
+       Server 具有基於 Jakarta EE
        標準的動態可延伸安全性架構。它內建的安全性功能包括密碼學、認證與授權以及公開金鑰基礎架構。GlassFish
        Server 是基於 Java
        安全性模型建立的，該安全性模型使用了一個沙箱，應用程式可以在沙箱中安全地執行，而不會給系統或使用者帶來潛在的風險。

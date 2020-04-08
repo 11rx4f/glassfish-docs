@@ -70,7 +70,7 @@
 <p><code>session :</code> l'&eacute;tat de la session est stock&eacute; int&eacute;gralement &agrave; chaque fois. Ce mode constitue la meilleure garantie que vos donn&eacute;es de session seront correctement stock&eacute;es, quelle que soit l'application Web distribuable.</p>
 </li>
 <li>
-<p><code>modified-session :</code> l'&eacute;tat de la session est stock&eacute; int&eacute;gralement s'il a &eacute;t&eacute; modifi&eacute;. Une session est consid&eacute;r&eacute;e comme ayant &eacute;t&eacute; modifi&eacute;e si <code>HttpSession.setAttribute()</code> ou <code>HttpSession.removeAttribute()</code> a &eacute;t&eacute; appel&eacute;. Vous devez vous assurer que <code>setAttribute()</code> est appel&eacute; chaque fois qu'un attribut est modifi&eacute;. Cette exigence n'est pas requise par la sp&eacute;cification Java EE, mais elle est n&eacute;cessaire pour que ce mode fonctionne correctement.</p>
+<p><code>modified-session :</code> l'&eacute;tat de la session est stock&eacute; int&eacute;gralement s'il a &eacute;t&eacute; modifi&eacute;. Une session est consid&eacute;r&eacute;e comme ayant &eacute;t&eacute; modifi&eacute;e si <code>HttpSession.setAttribute()</code> ou <code>HttpSession.removeAttribute()</code> a &eacute;t&eacute; appel&eacute;. Vous devez vous assurer que <code>setAttribute()</code> est appel&eacute; chaque fois qu'un attribut est modifi&eacute;. Cette exigence n'est pas requise par la sp&eacute;cification Jakarta EE, mais elle est n&eacute;cessaire pour que ce mode fonctionne correctement.</p>
 </li>
 <li>
 <p><code>modified-attribute :</code> seuls les attributs de session modifi&eacute;s sont stock&eacute;s. Pour que ce mode fonctionne correctement, suivez les lignes directrices ci-dessous :</p>

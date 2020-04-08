@@ -8,7 +8,7 @@ DESCRIPTION
        accès non autorisé ou tout dommage pouvant survenir lors de leur
        stockage ou de leur déplacement. GlassFish Server comprend une
        architecture de sécurité dynamique et extensible basée sur la norme
-       Java EE. Les fonctions de sécurité intégrées incluent le cryptage,
+       Jakarta EE. Les fonctions de sécurité intégrées incluent le cryptage,
        l'authentification, l'autorisation et l'infrastructure de clé publique.
        GlassFish Server est conçu sur le modèle de sécurité Java, qui utilise
        un modèle d'environnement restreint dans lequel les applications

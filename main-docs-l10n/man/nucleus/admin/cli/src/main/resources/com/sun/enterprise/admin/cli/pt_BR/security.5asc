@@ -7,7 +7,7 @@ DESCRIçãO
        Segurança refere-se à proteção de dados: como prevenir acesso não
        autorizado ou dano a ele no armazenamento ou trânsito. O GlassFish
        Server possui uma arquitetura de segurança dinâmica e extensível
-       baseada no padrão Java EE. A criação de recursos de segurança inclui
+       baseada no padrão Jakarta EE. A criação de recursos de segurança inclui
        infraestrutura de autenticação e autorização, criptografia e chave
        pública. O GlassFish Server é construído no modelo de segurança Java,
        que utiliza uma sandbox onde as aplicações podem ser executadas

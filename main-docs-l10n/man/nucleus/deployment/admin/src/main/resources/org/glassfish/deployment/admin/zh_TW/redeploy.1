@@ -134,7 +134,7 @@ redeploy(1)                 asadmin 公用程式子命令                 redepl
            Server 描述元的 EAR。
 
        --altdd
-           建置使用位於應用程式存檔外部之 Java EE
+           建置使用位於應用程式存檔外部之 Jakarta EE
            標準建置描述元的應用程式。指定替代建置描述元檔案的絕對路徑或相對路徑。替代建置描述元會置換存檔中封裝的最上層建置描述元。例如，如果是
            EAR，--altdd 選項會置換 application.xml。如果是獨立模組，--altdd
            選項會置換最上層模組描述元，例如 web.xml。
@@ -287,7 +287,7 @@ redeploy(1)                 asadmin 公用程式子命令                 redepl
                9.1.1。Java EE 6 平台規格會強加比 Java EE 5 更嚴格的需求，以對
                EAR 檔案內的各種模組顯示 JAR 檔案。尤其是應用程式從屬端不得存取
                EJB JAR 檔案或其他 EAR 檔案中的 JAR 檔案，除非參照使用標準 Java
-               SE 機制 (例如，副檔名) 或 Java EE
+               SE 機制 (例如，副檔名) 或 Jakarta EE
                程式庫目錄機制。將此特性設定為 v2 會移除這些 Java EE 6 限制。
 
            keepSessions={false|true}

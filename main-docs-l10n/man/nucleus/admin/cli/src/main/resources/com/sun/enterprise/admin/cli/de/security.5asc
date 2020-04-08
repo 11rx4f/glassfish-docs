@@ -8,7 +8,7 @@ BESCHREIBUNG
        unberechtigter Zugriff auf gespeicherte oder übertragene Daten oder
        deren Beschädigung verhindert werden kann. GlassFish Server verfügt
        über eine dynamische, erweiterbare Sicherheitsarchitektur, die auf dem
-       Java EE-Standard basiert. Zu den integrierten Sicherheitsfeatures
+       Jakarta EE-Standard basiert. Zu den integrierten Sicherheitsfeatures
        zählen Kryptographie, Authentifizierung, Autorisierung und eine Public
        Key-Infrastruktur. GlassFish Server basiert auf dem
        Java-Sicherheitsmodell, das eine Sandbox verwendet, in der Anwendungen

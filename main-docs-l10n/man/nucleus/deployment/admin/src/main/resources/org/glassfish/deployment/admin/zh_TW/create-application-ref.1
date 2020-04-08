@@ -11,7 +11,7 @@ create-application-ref(1)   asadmin 公用程式子命令   create-application-r
 描述
        create-application-ref
        子命令會從叢集或未叢集的伺服器執行處理中，建立對先前建置之應用程式元素
-       (例如，Java EE 應用程式、Web 模組、企業 Bean 模組)
+       (例如，Jakarta EE 應用程式、Web 模組、企業 Bean 模組)
        的參照。它能有效建置應用程式元素，使其可於目標執行處理或叢集上使用。
 
        這個子命令不需要目標執行處理或構成叢集的執行處理，更不需執行它們，便可成功執行。如果沒有任何可用執行處理，下次啟動時便會收到新的應用程式元素。
@@ -36,7 +36,7 @@ create-application-ref(1)   asadmin 公用程式子命令   create-application-r
 
        --virtualservers
            指定要建置虛擬伺服器 ID 的逗號分隔清單。此選項僅適用於 Web 模組
-           (獨立的或在 Java EE
+           (獨立的或在 Jakarta EE
            應用程式中)。如果未指定此選項，應用程式便會建置到除了管理伺服器
            __asadmin 以外的所有虛擬伺服器。
 
@@ -50,7 +50,7 @@ create-application-ref(1)   asadmin 公用程式子命令   create-application-r
 
 運算元
        reference_name
-           應用程式或模組的名稱可以是 Java EE 應用程式、Web 模組、EJB
+           應用程式或模組的名稱可以是 Jakarta EE 應用程式、Web 模組、EJB
            模組、連線器模組、應用程式從屬端模組、或生命週期模組。
 
            名稱中可以包含一個選擇性的版本識別碼，後面接著名稱，兩者間用冒號

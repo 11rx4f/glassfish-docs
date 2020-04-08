@@ -134,7 +134,7 @@ create-jdbc-connection-pool(asadmin 实用程序子命create-jdbc-connection-poo
            如果设置为“真”，则单次验证检查失败时，必须关闭池中的所有连接。默认值为“假”。会进行一次尝试，以重新建立之前失败的连接。
 
        --allownoncomponentcallers
-           此属性设置为“真”的池可由非 Java EE 组件 (即除了 EJB 或 Servlet
+           此属性设置为“真”的池可由非 Jakarta EE 组件 (即除了 EJB 或 Servlet
            以外的组件)
            使用。返回的连接会自动登记到从事务处理管理器获取的事务处理上下文。在事务处理结束时，容器不会自动清除非组件调用方获取的连接。需要调用方显式关闭这些连接。
 

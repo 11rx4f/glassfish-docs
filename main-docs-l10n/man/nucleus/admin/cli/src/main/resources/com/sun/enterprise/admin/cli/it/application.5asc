@@ -4,7 +4,7 @@ NOME
        application - applicazioni e servizi Web Java lato server
 
 DESCRIZIONE
-       La piattaforma Java EE consente alle applicazioni di accedere a sistemi
+       La piattaforma Jakarta EE consente alle applicazioni di accedere a sistemi
        esterni all'Application Server. Le applicazioni si connettono a tali
        sistemi attraverso risorse. L'infrastruttura di GlassFish Server
        supporta la distribuzione di numerosi tipi di applicazioni distribuite
@@ -12,7 +12,7 @@ DESCRIZIONE
        sull'architettura SOA (Service Oriented Architecture). SOA è una
        metodologia di progettazione finalizzata al massimo riutilizzo dei
        servizi applicativi. Queste funzioni consentono di eseguire
-       applicazioni Java EE scalabili e ad alta disponibilità.
+       applicazioni Jakarta EE scalabili e ad alta disponibilità.
 
 VEDERE ANCHE
        create-application-ref(1), deploy(1), list-applications(1)

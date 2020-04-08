@@ -1,7 +1,7 @@
 instance(5ASC)              GlassFish Serverの概念              instance(5ASC)
 
 名前
-       instance - GlassFish Server自体のJava EE構成、Java
+       instance - GlassFish Server自体のJakarta EE構成、Java
        EEリソース、アプリケーション・デプロイメント領域、およびサーバー構成設定内にあるインスタンス
 
 説明

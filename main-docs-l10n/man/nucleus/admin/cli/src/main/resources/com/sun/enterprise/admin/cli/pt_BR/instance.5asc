@@ -2,7 +2,7 @@ instance(5ASC)           Conceitos do GlassFish Server          instance(5ASC)
 
 NOME
        instance - uma instância do GlassFish Server tem sua própria
-       configuração do Java EE, recursos do Java EE, áreas de implantação de
+       configuração do Jakarta EE, recursos do Jakarta EE, áreas de implantação de
        aplicações e definições de configuração do servidor
 
 DESCRIçãO

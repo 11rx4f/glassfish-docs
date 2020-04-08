@@ -7,7 +7,7 @@ DESCRIPCIÓN
        La seguridad se refiere a la protección de los datos: cómo evitar el
        acceso no autorizado o daños en almacenamiento o en tránsito. GlassFish
        Server posee una arquitectura de seguridad dinámica y ampliable basada
-       en el estándar Java EE. Las funciones de seguridad incorporadas
+       en el estándar Jakarta EE. Las funciones de seguridad incorporadas
        incluyen criptografía, autenticación y autorización e infraestructura
        de clave pública. GlassFish Server está construido sobre el modelo de
        seguridad Java, que utiliza un área segura en la que las aplicaciones

@@ -1,8 +1,8 @@
 instance(5ASC)             GlassFish Server Concepts            instance(5ASC)
 
 NAME
-       instance - an instance in GlassFish Server has its own Java EE
-       configuration, Java EE resources, application deployment areas, and
+       instance - an instance in GlassFish Server has its own Jakarta EE
+       configuration, Jakarta EE resources, application deployment areas, and
        server configuration settings
 
 DESCRIPTION

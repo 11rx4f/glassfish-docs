@@ -68,7 +68,7 @@
 <p><code>session</code> &mdash; se almacena el estado de la sesi&oacute;n completo cada vez. Este modo ofrece la mejor garant&iacute;a de que sus datos de sesi&oacute;n se almacenan correctamente para las aplicaciones web distribuibles.</p>
 </li>
 <li>
-<p><code>modified-session</code> &mdash; el estado de la sesi&oacute;n completo se almacena si se ha modificado. Se considera que se ha modificado una sesi&oacute;n si se ha realizado una llamada a <code>HttpSession.setAttribute()</code> o <code>HttpSession.removeAttribute()</code>. Debe garantizar que se llama a <code>setAttribute()</code> cada vez que se cambia un atributo. Esto no es un requisito de especificaci&oacute;n de Java EE, pero es necesario para que este modo funcione correctamente.</p>
+<p><code>modified-session</code> &mdash; el estado de la sesi&oacute;n completo se almacena si se ha modificado. Se considera que se ha modificado una sesi&oacute;n si se ha realizado una llamada a <code>HttpSession.setAttribute()</code> o <code>HttpSession.removeAttribute()</code>. Debe garantizar que se llama a <code>setAttribute()</code> cada vez que se cambia un atributo. Esto no es un requisito de especificaci&oacute;n de Jakarta EE, pero es necesario para que este modo funcione correctamente.</p>
 </li>
 <li>
 <p><code>modified-attribute</code> &mdash; s&oacute;lo se almacenan los atributos de sesi&oacute;n modificados. Para que este modo funcione correctamente, debe seguir estas directrices:</p>

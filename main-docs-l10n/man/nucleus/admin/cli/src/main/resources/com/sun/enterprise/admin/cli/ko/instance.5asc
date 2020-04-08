@@ -1,7 +1,7 @@
 instance(5ASC)               GlassFish Server 개념              instance(5ASC)
 
 제목
-       instance - GlassFish Server의 인스턴스는 고유한 Java EE 구성, Java EE
+       instance - GlassFish Server의 인스턴스는 고유한 Jakarta EE 구성, Jakarta EE
        리소스, 응용 프로그램 배치 영역 및 서버 구성 설정을 가짐
 
 설명

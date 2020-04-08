@@ -70,7 +70,7 @@
 <p><code>session</code> &mdash; viene memorizzato ogni volta lo stato dell'intera sessione. Questa modalit&agrave; rappresenta la migliore garanzia che i dati della sessione vengano memorizzati correttamente per ogni applicazione Web distribuibile.</p>
 </li>
 <li>
-<p><code>modified-session</code> &mdash; viene memorizzato lo stato dell'intera sessione nel caso in cui abbia subito modifiche. Una sessione viene considerata modificata se &egrave; stato richiamato un metodo <code>HttpSession.setAttribute()</code> o <code>HttpSession.removeAttribute()</code>. &Egrave; necessario garantire che venga richiamato <code>setAttribute()</code> ogni volta che un attributo viene modificato. Non si tratta di un requisito delle specifiche Java EE, ma &egrave; necessario affinch&eacute; questa modalit&agrave; funzioni in modo corretto.</p>
+<p><code>modified-session</code> &mdash; viene memorizzato lo stato dell'intera sessione nel caso in cui abbia subito modifiche. Una sessione viene considerata modificata se &egrave; stato richiamato un metodo <code>HttpSession.setAttribute()</code> o <code>HttpSession.removeAttribute()</code>. &Egrave; necessario garantire che venga richiamato <code>setAttribute()</code> ogni volta che un attributo viene modificato. Non si tratta di un requisito delle specifiche Jakarta EE, ma &egrave; necessario affinch&eacute; questa modalit&agrave; funzioni in modo corretto.</p>
 </li>
 <li>
 <p><code>modified-attribute</code> &mdash; vengono memorizzati solo gli attributi di sessione modificati. Affinch&eacute; questa modalit&agrave; funzioni correttamente, attenersi alle istruzioni riportate di seguito.</p>

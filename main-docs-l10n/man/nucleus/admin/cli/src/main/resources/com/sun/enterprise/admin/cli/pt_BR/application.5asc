@@ -4,14 +4,14 @@ NOME
        application - Web service e aplicações Java do servidor
 
 DESCRIçãO
-       A plataforma Java EE permite que as aplicações acessem os sistemas que
+       A plataforma Jakarta EE permite que as aplicações acessem os sistemas que
        estão fora do servidor de aplicações. As aplicações se conectam com
        esses sistemas através de recursos. A infraestrutura do GlassFish
        Server suporta a implantação de vários tipos de aplicações distribuídas
        e é uma base ideal para construir aplicações com base na tecnologia SOA
        (Service Oriented Architecture). SOA é uma metodologia de design
        destinada a maximizar a reutilização dos serviços da aplicação. Estes
-       recursos permitem a execução de aplicações Java EE escaláveis e
+       recursos permitem a execução de aplicações Jakarta EE escaláveis e
        altamente disponíveis.
 
 CONSULTE TAMBéM

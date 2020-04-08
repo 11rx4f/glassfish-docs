@@ -68,7 +68,7 @@
 <p><code>session</code> &mdash; The entire session state is stored every time. This mode provides the best guarantee that your session data is correctly stored for any distributable web application.</p>
 </li>
 <li>
-<p><code>modified-session</code> &mdash; The entire session state is stored if it has been modified. A session is considered to have been modified if <code>HttpSession.setAttribute()</code> or <code>HttpSession.removeAttribute()</code> was called. You must guarantee that <code>setAttribute()</code> is called every time an attribute is changed. This is not a Java EE specification requirement, but it is required for this mode to work properly.</p>
+<p><code>modified-session</code> &mdash; The entire session state is stored if it has been modified. A session is considered to have been modified if <code>HttpSession.setAttribute()</code> or <code>HttpSession.removeAttribute()</code> was called. You must guarantee that <code>setAttribute()</code> is called every time an attribute is changed. This is not a Jakarta EE specification requirement, but it is required for this mode to work properly.</p>
 </li>
 <li>
 <p><code>modified-attribute</code> &mdash; Only modified session attributes are stored. For this mode to work properly, you must follow these guidelines:</p>

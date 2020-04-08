@@ -2,7 +2,7 @@ instance(5ASC)           Conceptos de GlassFish Server          instance(5ASC)
 
 NOMBRE DE REFERENCIA
        instance - Una instancia en GlassFish Server tiene su propia
-       configuración Java EE, recursos Java EE, áreas de despliegue de
+       configuración Jakarta EE, recursos Jakarta EE, áreas de despliegue de
        aplicaciones y ajustes de configuración del servidor.
 
 DESCRIPCIÓN

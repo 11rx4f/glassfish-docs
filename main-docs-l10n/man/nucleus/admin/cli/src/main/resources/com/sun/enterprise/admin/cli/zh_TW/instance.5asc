@@ -1,7 +1,7 @@
 instance(5ASC)             GlassFish Server Concepts            instance(5ASC)
 
 參考名
-       instance - GlassFish Server 中的執行處理有自己的 Java EE 組態、Java EE
+       instance - GlassFish Server 中的執行處理有自己的 Jakarta EE 組態、Jakarta EE
        資源、應用程式建置區域，及伺服器組態設定值
 
 描述

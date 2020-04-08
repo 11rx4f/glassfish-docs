@@ -68,7 +68,7 @@
 <p><code>session</code> (Session) &mdash; Der Sessionstatus wird bei jedem Speichervorgang vollst&auml;ndig gespeichert. Dieser Modus bietet die beste M&ouml;glichkeit, um sicherzustellen, dass die Sessiondaten f&uuml;r verteilbare Webanwendungen ordnungsgem&auml;&szlig; gespeichert werden.</p>
 </li>
 <li>
-<p><code>modified-session</code> (modifizierte Session) &mdash; Der Sessionstatus wird vollst&auml;ndig gespeichert, wenn er ge&auml;ndert wurde. Eine Session gilt als ge&auml;ndert, wenn <code>HttpSession.setAttribute()</code> oder <code>HttpSession.removeAttribute()</code> aufgerufen wurde. Es muss sichergestellt werden, dass <code>setAttribute()</code> bei jeder Attribut&auml;nderung aufgerufen wird. Dies ist keine Anforderung der Java EE-Spezifikation, sondern f&uuml;r die ordnungsgem&auml;&szlig;e Funktionsweise dieses Modus erforderlich.</p>
+<p><code>modified-session</code> (modifizierte Session) &mdash; Der Sessionstatus wird vollst&auml;ndig gespeichert, wenn er ge&auml;ndert wurde. Eine Session gilt als ge&auml;ndert, wenn <code>HttpSession.setAttribute()</code> oder <code>HttpSession.removeAttribute()</code> aufgerufen wurde. Es muss sichergestellt werden, dass <code>setAttribute()</code> bei jeder Attribut&auml;nderung aufgerufen wird. Dies ist keine Anforderung der Jakarta EE-Spezifikation, sondern f&uuml;r die ordnungsgem&auml;&szlig;e Funktionsweise dieses Modus erforderlich.</p>
 </li>
 <li>
 <p><code>modified-attribute</code> (modifiziertes Attribut) &mdash; Lediglich ge&auml;nderte Sessionattribute werden gespeichert. F&uuml;r die ordnungsgem&auml;&szlig;e Funktionsweise dieses Modus m&uuml;ssen folgende Richtlinien befolgt werden:</p>
